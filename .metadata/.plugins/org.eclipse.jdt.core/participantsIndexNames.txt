@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3893534073.index
+\SimpleServletAppStructure\src\main\java
+D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2215748821.index
+\SimpleServletAppStructure\src\main\java
