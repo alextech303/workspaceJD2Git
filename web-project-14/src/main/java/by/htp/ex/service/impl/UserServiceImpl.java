@@ -3,18 +3,22 @@ package by.htp.ex.service.impl;
 import by.htp.ex.bean.NewUserInfo;
 import by.htp.ex.dao.DaoException;
 import by.htp.ex.dao.DaoProvider;
-import by.htp.ex.dao.UserDao;
+import by.htp.ex.dao.IUserDao;
 import by.htp.ex.service.ServiceException;
-import by.htp.ex.service.UserService;
+import by.htp.ex.service.IUserService;
 import by.htp.ex.util.validation.UserDataValidation;
+import by.htp.ex.util.validation.ValidationProvider;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements IUserService{
 
-	private final UserDao userDao = DaoProvider.getInstance().getUserDao();
-	private final UserDataValidation userDataValidation = ValidationProvider.getIntsance().getUserDataVelidation();
+	private final IUserDao iUserDao = DaoProvider.getInstance().getIUserDao();
+	
+	
+	
+	private final UserDataValidation userDataValidation = ValidationProvider.getInstance().getUserDataVelidation();
 	
 	@Override
-	public boolean logination(String login, String password) throws ServiceException {
+	public String signIn(String login, String password) throws ServiceException {
 		
 		if(!userDataValidation.checkAUthData(login, password)) {
 			throw new ServiceException("login ...... ");
@@ -22,7 +26,7 @@ public class UserServiceImpl implements UserService{
 		
 		
 		try {
-			return userDao.logination(login, password);
+			return iUserDao.signIn(login, password);
 		}catch(DaoException e) {
 			throw new ServiceException(e);
 		}
