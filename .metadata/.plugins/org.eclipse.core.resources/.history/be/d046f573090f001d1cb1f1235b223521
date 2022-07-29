@@ -1,0 +1,10 @@
+package by.htp.jd2_les01.main;
+
+public class JdbcExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

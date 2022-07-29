@@ -1,0 +1,5 @@
+package by.htp.ex.service;
+
+public interface INewsService {
+
+}

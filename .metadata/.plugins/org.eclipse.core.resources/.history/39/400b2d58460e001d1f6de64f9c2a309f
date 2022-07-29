@@ -1,0 +1,5 @@
+package by.htp.ex.dao.impl;
+
+public class NewsDao {
+
+}

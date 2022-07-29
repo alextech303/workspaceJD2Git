@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jd2-les01-jdbc-ex02">
+        <property name="java-output-path" value="/jd2-les01-jdbc-ex02/target/classes"/>
+    </wb-module>
+</project-modules>

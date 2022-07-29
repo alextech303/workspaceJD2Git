@@ -1,0 +1,5 @@
+127.0.0.1 - - [14/Jul/2022:10:17:29 +0300] "GET / HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [14/Jul/2022:10:17:36 +0300] "GET /web-project-14/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Jul/2022:10:17:37 +0300] "GET /web-project-14/controller?command=go_to_logination_page HTTP/1.1" 200 458
+0:0:0:0:0:0:0:1 - - [14/Jul/2022:10:17:39 +0300] "GET /favicon.ico HTTP/1.1" 404 783
+0:0:0:0:0:0:0:1 - - [14/Jul/2022:10:18:51 +0300] "POST /web-project-14/controller HTTP/1.1" 500 1653

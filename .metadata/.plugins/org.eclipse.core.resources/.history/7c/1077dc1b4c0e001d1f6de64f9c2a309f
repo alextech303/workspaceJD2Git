@@ -1,0 +1,5 @@
+package by.htp.ex.controller.impl;
+
+public class DoSignOut {
+
+}
