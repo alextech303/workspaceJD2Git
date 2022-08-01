@@ -8,10 +8,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
-public class App 
-{
-    public static void main( String[] args )throws ClassNotFoundException, SQLException 
-    {
+public class App {
+	
+    public static void main( String[] args )throws ClassNotFoundException, SQLException {
+    	
     	Class.forName("com.mysql.cj.jdbc.Driver");
     	
     	Connection con = null;
@@ -19,8 +19,7 @@ public class App
 		ResultSet rs = null;
 
 //		try {
-			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1/jd2-jdbc01?useSSL=false", "root",
-					"g145101988Q");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1/jd2-jdbc01?useSSL=false", "root",	"g145101988Q");
 
 			System.out.println("OK");
     	

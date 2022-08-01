@@ -66,12 +66,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="by.htp.jd2_les01"/>
 			<item value="com.training.webapp14.web_project_14"/>
 		</list>
 		<list key="groupId">
+			<item value="by.htp.jd2_les01"/>
 			<item value="com.training.webapp14"/>
 		</list>
 		<list key="artifactId">
+			<item value="jd2-les01-jdbc-ex02"/>
 			<item value="web-project-14"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -83,6 +86,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 			<item value="0.0.1"/>
 		</list>
 	</section>

@@ -1250,3 +1250,21 @@ Caused by: java.lang.Exception: Resource '/web-project-14/pom.xml' does not exis
 2022-07-29 10:56:10,974 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\jd2-les01-jdbc-ex02\src\main\resources
 2022-07-29 10:56:10,976 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-07-29 10:56:10,977 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\jd2-les01-jdbc-ex02\src\test\resources
+2022-07-29 11:14:45,907 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-29 11:14:45,908 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\jd2-les01-jdbc-ex02\src\main\resources
+2022-07-29 11:14:45,910 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-29 11:14:45,910 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\jd2-les01-jdbc-ex02\src\test\resources
+2022-07-29 12:55:31,251 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-29 12:55:31,251 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\jd2-les01-jdbc-ex02\src\main\resources
+2022-07-29 12:55:31,253 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-29 12:55:31,253 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\jd2-les01-jdbc-ex02\src\test\resources
+2022-08-01 09:30:47,952 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-01 09:36:40,012 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.training.webapp14:web-project-14:0.0.1 @ D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\web-project-14\pom.xml.
+2022-08-01 09:36:40,846 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-01 09:36:40,853 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-01 09:36:40,859 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-01 09:36:40,860 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\web-project-14\src\test\resources
+2022-08-01 09:36:50,827 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-01 09:36:50,855 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-01 09:36:50,873 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-01 09:36:50,874 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Алексей\Алексей\Java\JD2\workspaceJD2Git\web-project-14\src\test\resources
